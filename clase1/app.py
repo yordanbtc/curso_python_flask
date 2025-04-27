@@ -39,7 +39,8 @@ def expresiones():
     altura = 10
     return render_template("expresiones.html", nombre=nombre, apellido=apellido, color=color, base=base, altura=altura)
     
-@app.route("/diccionario")
+@app.route("/dic" \
+"cionario")
 def expresiones2():
     kwargs = {
         "nombre" : "Yordan",
