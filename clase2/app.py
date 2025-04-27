@@ -6,7 +6,7 @@ def estructura_datos():
     peliculas = [
         "El lobo de wall street",
         "Harry Potter",
-        "Volver al roues"
+        "Volver al futuro"
     ]
     return render_template("estructuras.html",movies=peliculas)
 
