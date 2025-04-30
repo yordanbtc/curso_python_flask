@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-
+"""¿Cómo crear sitios web dinámicos con Flask y Python sin JavaScript? | Curso de Flask | E01"""
 app = Flask(__name__)
 
 @app.route("/")
