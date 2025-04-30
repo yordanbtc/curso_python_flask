@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+"""Estructuras de datos en Flask y Plantilla html? | Curso de Flask | E02"""
 
 app = Flask(__name__)
 class Pelicula: 
