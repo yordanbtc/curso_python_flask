@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formilarios</title>
+
+
+    
+</head>
+<body>
+    <h1>¿Cómo crear y procesar formularios web en Flask? | Curso de Flask | E05</h1>
+    <form class="form" method="post" action="">
+        <Label for="entry" class="form_label">Agregar Usuario:</Label>
+        <input type="text" name="contenido" id="entry">
+        <button type="submit" class="form_submit">Enviar</button>
+    </form>
+    <h2>Usuarios:</h2>
+    <ul>
+        {% for usuario in usuarios %}
+        <li>{{ usuario.nombre }}</li>
+        {% endfor %}
+    </ul>
+    
+
+    
+</body>
+</html>

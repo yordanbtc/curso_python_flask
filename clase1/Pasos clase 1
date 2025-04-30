@@ -1,7 +1,0 @@
-Pasos clase 1
-
-instalar pycharm
-crear app.py
-instalar virtualvenv
-crear entorno virtual python -m venv <nombre_entorno>
-activar el entorno <nombre_entorno>/Scripts/activate.
