@@ -15,5 +15,8 @@
         <input type="text" name="contenido" id="entry">
         <button type="submit" class="form_submit">Enviar</button>
     </form>
+    {% if nombre  %}
+    <h2>Hola {{ nombre }}</h2>
+    {% endif %}
 </body>
 </html>
