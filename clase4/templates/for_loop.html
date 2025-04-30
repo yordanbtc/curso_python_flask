@@ -15,5 +15,13 @@
             </li>
         {% endfor %}
     </ul>
+    <h2>Campeones de la UEFA champions League</h2>
+    <ul>
+        {% for team, copas in teams_dic.items() %}
+        <li>
+            {{ team }} con {{ copas }} títulos
+        </li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
