@@ -1,6 +1,9 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
+
+"""¿Cómo implementar loops for en Flask usando Jinja2 en Python? | Curso de Flask | E04"""
+
 @app.route("/for-loop")
 def loop_for():
     equipos = [
