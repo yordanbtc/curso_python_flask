@@ -10,8 +10,10 @@ activar el entorno <nombre_entorno>/Scripts/activate.
 
 Pasos clase 06
 mongodb: 
-    yordanbtc 2daDnmDE2F4gSNfG
-    mongodb+srv://yordanbtc:2daDnmDE2F4gSNfG@tutorial.wxxqpk9.mongodb.net/
+    yordanbtc CLAVE
+    mongodb+srv://yordanbtc:CLAVE@tutorial.wxxqpk9.mongodb.net/
+    pip install pymongo[srv]
 
-pip install pymongo[srv]
+
+Importante: Si estás usando un servidor web local (como Flask, Django o FastAPI): Accederás a tu aplicación web local a través de un URL como http://localhost:5000, http://localhost:8000
 
