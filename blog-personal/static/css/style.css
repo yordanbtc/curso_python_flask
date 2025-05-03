@@ -16,4 +16,43 @@ a:hover{
     padding: 0 20px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.navbar_logo{
+    display:flex;
+    align-items: center;
+    color: #1E88E5;
+    font-weight: bold;
+}
+.navbar_logo img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.navbar_navegacion{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+.navbar_navegacion_item{
+    margin-left: 50px;
+}
+.main{
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.form{
+    max-width: 100%;
+}
+.form_label{
+    display: block;
+    margin-bottom: 10px;
+}
+.title, .form_textarea{
+    width: 650px;
+    font-size: 18px;
+    padding: 12px 0px;
 }
