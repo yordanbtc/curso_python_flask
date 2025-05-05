@@ -13,6 +13,7 @@ mongodb:
     yordanbtc CLAVE
     mongodb+srv://yordanbtc:CLAVE@tutorial.wxxqpk9.mongodb.net/
     pip install pymongo[srv]
+    pip install pymongo
 
 
 Importante: Si estás usando un servidor web local (como Flask, Django o FastAPI): Accederás a tu aplicación web local a través de un URL como http://localhost:5000, http://localhost:8000

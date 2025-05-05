@@ -16,22 +16,22 @@
             <li class="navbar_navegacion_item"><a href="#" class="navbar-link">Calendario</a></li>
         </ul>
     </header>
-    
     <main class="main">
         <section>
             <h2>Agrega una nueva entrada</h2>
-            <form class="form" method="POST">
+            <form class="form" method="POST" name = "my_form">
                 <p class="form_input">
                     <label class="form_label" for="titulo">Título</label>
                     <input type="text" name="tit" id="titulo" class="title">
                 </p>
                 <p class="form_input">
                     <label class="form_label" for="entry">Contenido:</label>
-                    <textarea type="content" name="entry" id="titulo" class="form_textarea"></textarea>
+                    <textarea name="content" id="entry"  class="form_textarea"></textarea>
                 </p>
                 <button type="submit" class="form_submit">Agregar</button>
             </form>
         </section>
+      
         <section>
                 <h2>Entradas Recientes</h2>
                 <article class="entry">
@@ -46,10 +46,21 @@
                         Además comencé e curso de flask
                     </p>
                 </article>
+                {% for entrada in entradas %}
+                <article class="entry">
+                    <div>
+                        <h3 class="entry_title">
+                            {{ entrada.titulo }}
+                        </h3>
+                        <time datetime={{ entrada.fecha }} class="entry_date">* {{ entrada.fecha }}</time>
+                    </div>
+                    <p class="entry_content">
+                        {{ entrada.contenido }}
+                    </p>
+                </article>
+                {% endfor %}
         </section>
-
     </main>
-
     <footer class="footer">
         <div class="footer_content">
             <section class="left">
